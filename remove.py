@@ -5,7 +5,7 @@ class ListNode:
 
 
 class Solution:
-    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+    def removekthFromEnd(self, head: ListNode, n: int) -> ListNode:
         #Make 2 pointers called prev and curr.
 	#Initialize both pointer to start at the head.
 	#Also we need a counter to know how made nodes the curr
